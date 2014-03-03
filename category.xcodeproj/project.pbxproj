@@ -21,6 +21,7 @@
 		04B37B8118C4326B0030E688 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04B37B6318C4326B0030E688 /* UIKit.framework */; };
 		04B37B8918C4326B0030E688 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 04B37B8718C4326B0030E688 /* InfoPlist.strings */; };
 		04B37B8B18C4326B0030E688 /* categoryTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 04B37B8A18C4326B0030E688 /* categoryTests.m */; };
+		04B37B9618C43A4C0030E688 /* NSArray+Category.m in Sources */ = {isa = PBXBuildFile; fileRef = 04B37B9518C43A4C0030E688 /* NSArray+Category.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		04B37B8618C4326B0030E688 /* categoryTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "categoryTests-Info.plist"; sourceTree = "<group>"; };
 		04B37B8818C4326B0030E688 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		04B37B8A18C4326B0030E688 /* categoryTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = categoryTests.m; sourceTree = "<group>"; };
+		04B37B9418C43A4C0030E688 /* NSArray+Category.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+Category.h"; sourceTree = SOURCE_ROOT; };
+		04B37B9518C43A4C0030E688 /* NSArray+Category.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+Category.m"; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,6 +122,8 @@
 				04B37B7518C4326B0030E688 /* ViewController.m */,
 				04B37B7718C4326B0030E688 /* Images.xcassets */,
 				04B37B6618C4326B0030E688 /* Supporting Files */,
+				04B37B9418C43A4C0030E688 /* NSArray+Category.h */,
+				04B37B9518C43A4C0030E688 /* NSArray+Category.m */,
 			);
 			path = category;
 			sourceTree = "<group>";
@@ -251,6 +256,7 @@
 			files = (
 				04B37B7618C4326B0030E688 /* ViewController.m in Sources */,
 				04B37B7018C4326B0030E688 /* AppDelegate.m in Sources */,
+				04B37B9618C43A4C0030E688 /* NSArray+Category.m in Sources */,
 				04B37B6C18C4326B0030E688 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
